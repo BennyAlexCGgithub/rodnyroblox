@@ -7,54 +7,52 @@
     <title>Perfil de Benja</title>
 </head>
 <body>
-<style>
-    body{
-        background-color:#4A4A4A;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #D50000;
-        text-align: center;
-        
-    }
-    .perfil{
-        margin: 20px auto;
-        width: 80%;
-        max-width: 600px;
-        padding: 20px;
-        box-shadow:0 0 10px black;
-
-    }
-    .foto-perfil{
-        width: auto;
-        height: auto;
-        border-radius: 50%;
-        margin: 0 auto;
-        display: block;
-    }
-    ul{
-        list-style: circle;
-        padding: right;
-    }
-
-</style>
-<div class="perfil">
-    <img src="foto-perfil.jpg" alt="brr" class="foto-perfil">
-    <div>
-        <h1>Benny alexander</h1>
-        <h3 id="especialidad">progamacion</h3>
-        <h2>cetis131</h2>
-        <ul>
-            <li id="musica">musica favorita<p>
-                <li id="videojuegos">videojuegos fav <p>
-                    </ul>
-                    </div>
-                    <script>
-                        document.getElementById ("DomConteentloaded",function(){
-                            document.getElementById("nombre").textContent="Benny Alexander"
-                            document.getElementById("especialidad").textContent="prog"
-                            document.getElementById("music").textContent="4x3"
-                            document.getElementById("videojuegos").textContent="mario"
-                        }
-                        </script>
-
+    <body>
+        <style>
+        body{
+             background-color: blue;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+             color: aliceblue; /*esto es para el color de letra*/
+             text-align: center;
+            }
+            .perfil{
+                margin: 60px auto;
+                width: 90%;
+                max-width: 600px;
+                background-color: darkred;
+                padding: 120px;
+                box-shadow: 0 0 100px black;
+            }
+            .foto-perfil{
+                width: 300px;
+                height: auto;
+                border-radius: 80%;
+                margin: 0 auto;
+                display: block;
+            }
+           
+        </style>
+        <div class="perfil">
+            <img src="foto-perfil.jpg" alt="Brrrr" class="foto-perfil">
+            <h1 id="nombre">Benny Alexander</h1>
+            <h3 id="especialidad">Programacion</h3>
+            <ul>
+                <li id="musica">Musica Favorita</li>
+                <li id="programas">Programas Favoritos</li>
+            </ul>
+            <h2>informacion de contacto</h2>
+            <p id="">Telefono</p>
+            <p id="">Correo</p>
+            <p id="">Biografia</p>
+        </div>
+        <script>
+            document.addEventListener{'DOMContentloaded',function(){
+                document.getElementById('nombre').textContent='Benny alexander';
+                document.getElementById('especialidad').textContent='Programacion';
+                document.getElementById('musica').textContent='geometry dash';
+                document.getElementById('programas').textContent='aleminero,Temach';
+            }}
+    
+        </script>
 </body>
 </html>
